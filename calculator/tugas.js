@@ -53,7 +53,7 @@ while (true) {
       continue; // Go back to the main calculation loop
     } else {
       const command = readline.question(
-        "Masukkan perintah (riwayat, keluar) : "
+        "Apakah anda ingin melihat riwayat/keluar dari perhitungan (riwayat/keluar): "
       );
       if (command.toLowerCase() === "riwayat") {
         while (true) {
